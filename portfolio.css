@@ -357,5 +357,35 @@ footer{
 .onetwo{
   display: flex;
   flex-direction: column;
+  padding: 0 48px;
 }
+}
+.certificationsall{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 0 40px;
+}
+.certiwithlink{
+  display: flex;
+  flex-direction: row;
+  padding: 0 70px;
+}
+.handlelinks{
+  display: flex;
+  flex-direction: row;
+
+}
+.handlelinks img{
+  height: 37px;
+  padding: 0px;
+  margin: 10px 70px -30px 70px;
+  border-radius: 10px;
+}
+.handlelinks img:hover{
+  height: 45px;
+  border: 2px solid black;
+  padding: 0px;
+  margin: 10px 70px -40px 70px;
+  border-radius: 10px;
 }

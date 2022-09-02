@@ -192,13 +192,13 @@
     font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
-    background-color: lightgreen;
+    background-color: #ff7472;
     color: #02522c;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
  }
  .btn:hover{
-    background-color: #ff7472;
+    background-color: #5ef391;
     color: #ffffff;
     text-shadow: 1px 1px 1px black;
  }
@@ -255,26 +255,39 @@ flex-direction: column;
 .firstrow, .secondrow{
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: flex-start;
+margin-top: -22px;
 }
 .projectcards{
-  padding: 10px 20px;;
-    width: 500px;
-    margin: 52px;
+    width: 370px;
+    margin: 40px 52px;
 }
 .btn-2{
     background-color: #ff498c;
     text-shadow: 1px 1px 1px black;
     padding: 5px 25px;
 }
+.btn-2:hover{
+  background-color:#0980ff;
+  text-shadow: 1px 1px 1px black;
+  padding: 5px 25px;
+}
+
 .btn-2 a{
     color: white;
     text-decoration: none;
 }
 h3{
-    color: #263238;
-    text-shadow: 1px 1px 1px white;
-    font-size: 23px;
+    color: #f9fd78;
+    text-shadow: 1px 1px 3px black;
+    font-size: 22px;
+}
+.projectof{
+  color: #e7f2f2;
+  justify-content: center;
+  text-shadow: 2px 1px 2px black;
+  font-size: 25px;
+  margin: 0 49px;
 }
 .heading-projects {
     display: flex;
@@ -294,6 +307,7 @@ h3{
     justify-content: center;
     align-items: center;
     display: flex;
+    font-size: 13px;
 }
 .contactme{
   display: flex;
@@ -323,9 +337,38 @@ footer{
   justify-content: center;
   background-color: gainsboro;
 }
+.certificationsall{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 0 40px;
+}
+.certiwithlink{
+  display: flex;
+  flex-direction: row;
+  padding: 0 70px;
+}
+.handlelinks{
+  display: flex;
+  flex-direction: row;
+
+}
+.handlelinks img{
+  height: 37px;
+  padding: 0px;
+  margin: 10px 70px -30px 70px;
+  border-radius: 10px;
+}
+.handlelinks img:hover{
+  height: 45px;
+  border: 2px solid black;
+  padding: 0px;
+  margin: 10px 70px -40px 70px;
+  border-radius: 10px;
+}
 @media (max-width:780px) {
 .about-section{
-  padding: 50px 50px 200px 50px;
+  padding: 50px 50px 20px 50px;
 }
 .tools img{
   margin: 15px;
@@ -356,36 +399,24 @@ footer{
 @media (max-width:780px) {
 .onetwo{
   display: flex;
-  flex-direction: column;
-  padding: 0 48px;
-}
-}
-.certificationsall{
-  display: flex;
   flex-direction: row;
+  padding: 0;
+}
+.certificationsall {
+  display: flex;
+  flex-direction: column;
   margin: 20px;
-  padding: 0 40px;
+  padding: 0 34px;
 }
 .certiwithlink{
   display: flex;
   flex-direction: row;
-  padding: 0 70px;
-}
-.handlelinks{
-  display: flex;
-  flex-direction: row;
-
+  padding: 0;
 }
 .handlelinks img{
   height: 37px;
   padding: 0px;
-  margin: 10px 70px -30px 70px;
+  margin: 10px 30px -30px 30px;
   border-radius: 10px;
 }
-.handlelinks img:hover{
-  height: 45px;
-  border: 2px solid black;
-  padding: 0px;
-  margin: 10px 70px -40px 70px;
-  border-radius: 10px;
 }
